@@ -1,0 +1,23 @@
+{
+  "name": "discobot",
+  "description": "some random discord bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sillyangel/DiscoBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sillyangel/DiscoBot/issues"
+  },
+  "homepage": "https://github.com/sillyangel/DiscoBot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  }
+}
