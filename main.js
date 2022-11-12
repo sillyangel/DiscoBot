@@ -45,7 +45,7 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 });
 
-client.login(process.env.TOKEN);
+client.login();
 
 // website
 const express = require('express');
