@@ -10,17 +10,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm run ssc
 
-  run bot:
+  publish:
     needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
     steps:
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm run start
